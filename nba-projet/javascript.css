@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.icone-burger span {
+    display: flex;
+    width: 95px;
+    height: 20px;
+    background-color: rgb(11, 107, 185);
+    background: linear-gradient(135deg, rgb(223, 134, 32) 60%, cyan);
+    margin: 6px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-right: 10%;
+  } 
+  nav{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, orange 60%, cyan);
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    
+  }
+  .menu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+  .links a{
+    text-decoration: none;
+     margin-left: 5px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+  }
+  .icone-burger span {
+    display: flex;
+    width: 95px;
+    height: 20px;
+    background-color: rgb(11, 107, 185);
+    background: linear-gradient(135deg, rgb(223, 134, 32) 60%, cyan);
+    margin: 6px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-right: 10%;
+  } 
+ @media screen and (max-width:700px){
+    .links{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top:104px;
+        background-color: brown;
+        width: 100%;
+        padding: 17px 0px;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.3s;
+        
+    }
+    .menu span{
+          width: 60px;
+          height: 15px; 
+          background: white;
+          margin-top: 5px;
+    }
+
+ }
+ @media screen and{
+    .links{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top:104px;
+        background-color: brown;
+        width: 100%;
+    }
+    .links
+ }
+  /* @media screen and (max-width:500px){
+    .navbar {
+        display:flex;
+       
+    } */
+    /* .navbar .links{
+        top: 0;
+        left: 0;
+        position: absolute;
+    } */
+ } 
+ .card{
+    width:  400px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       border-radius: 10%;
+       
+       
+ }
+  
+    
